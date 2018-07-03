@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SUPER MARIO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/SuperMario256.ttf'), format('truetype');
+}
+
+h1 {
+  font-family: 'SUPER MARIO FONT'
+}
