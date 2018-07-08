@@ -7,6 +7,10 @@ const CardList = ({ friends }) => {
             <Card key={i} id={friends[i].id} name={friends[i].name} username={friends[i].username} email={friends[i].email} />
         );
     })
+    // if(true) {
+    //     throw new Error('NOOOOOO!');
+    // }
+
     return (
         <div>
             {cardComponent}
