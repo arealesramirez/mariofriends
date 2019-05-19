@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 
-class Counter extends PureComponent {
+class Counter extends Component {
     constructor() {
         super();
         this.state = {

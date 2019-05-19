@@ -5,7 +5,7 @@ import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import Header from '../components/Header';
 import ErrorBoundry from '../components/ErrorBoundry';
-import { friends } from '../models/friends';
+// import friends  from '../models/friends.json';
 import './App.css';
 import { setSearchField, requestFriends } from '../actions';
 

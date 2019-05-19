@@ -9,9 +9,9 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
-                return<h1>Mario Friends</h1>
-                <Counter color={'red'} />
+            <div className="headers">
+                <h1>Mario Friends</h1>
+                <p> These are not your regular Mario Friends</p>
             </div>
         )
     }
