@@ -12,9 +12,9 @@ jobs:
       steps:
         - checkout
         - run: echo "hello world 222"
-  workflows:
-    version: 2
-    builds:
-      jobs:
-        - build1 
-        - build2
+workflows:
+  version: 2
+  builds:
+    jobs:
+      - build1 
+      - build2
