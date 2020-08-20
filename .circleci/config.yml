@@ -16,6 +16,8 @@ jobs:
       - run: echo "testing..."
       - run: npm install
       - run: npm test
+      - store_test_results:
+          path: test-results
   extratest:
     docker: 
       - image: circleci/node:4.8.2 
