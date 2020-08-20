@@ -9,19 +9,19 @@ jobs:
       - run: npm install
       - run: CI=true npm run build
   test:
-      docker: 
-        - image: circleci/node:4.8.2 
-      steps:
-        - checkout
-        - run: echo "testing..."
-        - run: npm install
-        - run: npm test
+    docker: 
+      - image: circleci/node:4.8.2 
+    steps:
+      - checkout
+      - run: echo "testing..."
+      - run: npm install
+      - run: npm test
   extratest:
-      docker: 
-        - image: circleci/node:4.8.2 
-      steps:
-        - checkout
-        - run: echo "extratest..."
+    docker: 
+      - image: circleci/node:4.8.2 
+    steps:
+      - checkout
+      - run: echo "extratest..."
 workflows:
   version: 2
   build_test_and_lint:
