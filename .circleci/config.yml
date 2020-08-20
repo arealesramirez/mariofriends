@@ -29,5 +29,5 @@ workflows:
       - build 
       - extratest
       - test:
-        requires:
-          - extratest
+          requires:
+            - extratest
