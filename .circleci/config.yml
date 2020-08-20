@@ -17,7 +17,7 @@ jobs:
         - run: npm install
         - run: npm test
   extratest:
-     docker: 
+      docker: 
         - image: circleci/node:4.8.2 
       steps:
         - checkout
